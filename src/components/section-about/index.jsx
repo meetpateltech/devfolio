@@ -6,7 +6,7 @@ const SectionAbout = ({ about }) => {
   return (
     <Section title="About Me">
       <div className="mb-6">
-        <p>{about} Web Developer</p>
+        <p>{about}</p>
       </div>
     </Section>
   );
