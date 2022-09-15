@@ -1,39 +1,59 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://superlative-tulumba-010b96.netlify.app/`,
+    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
     // Your Name
-    name: 'Meet Patel',
+    name: 'Ryan Fitzgerald',
     // Main Site Title
-    title: `Meet | Full-Stack Developer`,
+    title: `Ryan Fitzgerald | Full-Stack Developer`,
     // Description that goes under your name in main bio
-    description: `Mern Stack Web Developer| Currently Learning App Development `,
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
     // Optional: Twitter account handle
-    author: `@mn_google`,
+    author: `@rfitzio`,
     // Optional: Github account URL
-    github: `https://github.com/meetpateltech`,
+    github: `https://github.com/ryanfitzgerald`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/`,
+    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
     // Content of the About Me section
-    about: `About Us`,
+    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Printer Status',
+        name: 'Devfolio',
         description:
-          'Printer Analytics On Android/Windows Platform ',
-        link: '',
+          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
       },
-      
+      {
+        name: 'ChromeExtensionKit',
+        description:
+          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
+        link: 'https://chromeextensionkit.com/?ref=devfolio',
+      },
+      {
+        name: 'Another Cool Project',
+        description:
+          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
+      },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'StudyMN',
+        name: 'Acme Corp',
         description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://studymn.blogspot.com',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
       },
-,
+      {
+        name: 'Globex Corp',
+        description: 'Full-Stack Developer, December 2017 - February 2020',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
+      },
+      {
+        name: 'Hooli',
+        description: 'Full-Stack Developer, May 2015 - December 2017',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
+      },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
